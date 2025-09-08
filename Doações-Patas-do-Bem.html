@@ -7,19 +7,42 @@
     <title>Doações Patas-Do-Bem</title>
 </head>
 <body>
+    <!--Adicionando o título na página-->
     <div id="Título">
         <h1>Faça a sua doação e ajude uma vida</h1>
     </div>
+
+    <!--Adicionando um parágrafo na página-->
     <div>
         <p>Sua ajuda é muito importante para os bixinhos, pequnos valores são de <br> grande ajuda para nós, uma pequena ação que muda nossas vidas.</p>
     </div>
-    <div id="Valor">
-        <label for="Valor">Valor: </label>
+    <form action="/preferencias" method="post">
+
+    <!--Adicionando o nome do doador-->
+    <div id="Nome">
+        <label for="Nome">Nome: </label>
         <input type="text">
     </div>
-    <div>
-        <label for=""></label>
 
+    <!--Adicionando CPF do doador-->
+    <div id="CPF">
+        <label for="CPF">CPF: </label>
+        <input type="text">
     </div>
+
+    <!--Adicionando as opções de valores na página-->
+    <div id="Valores">
+        <label for="Valores">Valores</label>
+        <select name="Valores" id="Valores">
+            <option value="Escolher">Escolher</option>
+            <option value="R$ 1,00">R$ 1,00</option>
+            <option value="R$ 5,00">R$ 5,00</option>
+            <option value="R$ 10,00">R$ 10,00</option>
+            <option value="R$ 20,00">R$ 20,00</option>
+            <option value="R$ 50,00">R$ 50,00</option>
+            <option value="R$ 100,00">R$ 100,00</option>
+        </section>
+    </div>
+    </form>
 </body>
 </html>
