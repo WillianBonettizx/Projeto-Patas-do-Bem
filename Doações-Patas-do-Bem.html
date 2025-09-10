@@ -18,30 +18,28 @@
     </div>
     <form action="/preferencias" method="post">
 
-    <!--Adicionando o nome do doador-->
-    <div id="Nome">
-        <label for="Nome">Nome: </label>
+    <!--Adicionando o usuario-->
+    <div id="Usuario">
+        <label for="Usuario">Usuario </label> 
         <input type="text">
     </div>
 
-    <!--Adicionando CPF do doador-->
-    <div id="CPF">
-        <label for="CPF">CPF: </label>
+    <!--Adicionando a senha do usuario-->
+    <div id="senha">
+        <label for="senha">Senha</label>
         <input type="text">
     </div>
-
+    
     <!--Adicionando as opções de valores na página-->
-    <div id="Valores">
-        <label for="Valores">Valores</label>
-        <select name="Valores" id="Valores">
-            <option value="Escolher">Escolher</option>
-            <option value="R$ 1,00">R$ 1,00</option>
-            <option value="R$ 5,00">R$ 5,00</option>
-            <option value="R$ 10,00">R$ 10,00</option>
-            <option value="R$ 20,00">R$ 20,00</option>
-            <option value="R$ 50,00">R$ 50,00</option>
-            <option value="R$ 100,00">R$ 100,00</option>
-        </section>
+    <div class="Valores">
+       <button> R$ 1,00 </button>
+       <button> R$ 5,00 </button>
+       <button> R$ 10,00 </button>
+       <button> R$ 20,00 </button>
+       <button> R$ 50,00 </button>
+       <button> R$ 100,00 </button>
+
+       <button id="Personalizado"> Personalizado</button>
     </div>
     </form>
 </body>
