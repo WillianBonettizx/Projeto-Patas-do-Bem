@@ -24,7 +24,13 @@ botaoLogin.addEventListener("click", function(event) {
     }else if (usuario === "admin" && senha === "1234") {
         window.location.href = "principal.html";
     } 
-    
+    else if (usuario === "Arthur Pasquali" && senha === "arthur1234") {
+        window.location.href = "principal.html";
+    }
+    else if (usuario === "Miguel" && senha === "Miguel") {
+        window.location.href = "principal.html";
+    } 
+
     else {
         mensagemErro.style.color = "red";
         mensagemErro.textContent = "Usuário ou senha incorretos!";
