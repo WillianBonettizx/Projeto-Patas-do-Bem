@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +10,24 @@
     <div class="conteiner">
         <img src="/IMG/cachorrinho-login.png" alt="Cachorrinho fofo" class="cachorrinho">
 
-
         <div id="Login-cabeçalho">
-            <h1>Login - Patas do bem</h1>
+            <h1>Login - Patas do Bem</h1>
             <p>Entre na sua conta e fique por dentro de tudo sobre nossos amigos de quatro patas!</p>
         </div>
 
         <div id="Login-dados">
-            <!--Usuario-->
-            <label for="Usuário"><strong>Usuário</strong></label>
+            <!-- Usuário -->
+            <label for="usuario-login"><strong>Usuário</strong></label>
             <input type="text" id="usuario-login" placeholder="Digite seu usuário">
-            <!--Senha-->
-            <label for="Password"></label><strong>Senha</strong></label>
+            
+            <!-- Senha -->
+            <label for="senha-login"><strong>Senha</strong></label>
             <input type="password" id="senha-login" placeholder="Digite sua senha">
         </div>
 
         <div id="login">
-            <button>Fazer login</button>
+            <button id="botao-login">Fazer login</button>
+            <div id="mensagem-erro"></div> <!-- Aqui vai a mensagem de erro -->
         </div>
 
         <div class="fazer-cadastro">
@@ -34,7 +35,7 @@
             <button id="botao-cadastro">Fazer Cadastro</button>
         </div>
     </div>
-    <script src="/JS/server.js"></script>
+
     <script src="/JS/mensagem-erro.js"></script>
 </body>
 </html>
