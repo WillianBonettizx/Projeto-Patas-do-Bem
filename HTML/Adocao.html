@@ -17,7 +17,7 @@
       text-align:center;
       margin-bottom:20px;
     }
-    header h1{margin:0;font-size:26px;color:#000}
+    header h1{margin:0;font-size:26px;color:#000000}
     nav a{
       margin:0 10px;
       text-decoration:none;
@@ -30,7 +30,7 @@
       padding:15px;
       border-radius:10px;
       margin-bottom:16px;
-      box-shadow:0 2px 6px rgba(0,0,0,0.1);
+      box-shadow:0 2px 6px rgba(0, 0, 0, 0.1);
     }
     .animals{
       display:grid;
@@ -56,6 +56,19 @@
       text-decoration:none;
       font-weight:bold;
       background:#b1ed9a;
+      color:#000000;
+    }
+    .comments{
+      margin-top:20px;
+    }
+    .comment{
+      border-left:4px solid #b1ed9a;
+      padding:10px;
+      margin-bottom:12px;
+      background:#fafafa;
+      border-radius:6px;
+    }
+    .comment strong{
       color:#000;
     }
     footer{
@@ -84,21 +97,35 @@
         <div class="animal">
           <img src="/img/imgT1.avif" alt="Cachorro para adoção">
           <h3>Rex</h3>
-          <p>Macho • 2 anos • Vacinado</p>
+          <p>Macho • 2 anos • Vacinado <br>Timbó</p>
           <a href="#" class="btn">Quero adotar</a>
         </div>
         <div class="animal">
           <img src="/img/imgT2.jfif" alt="Gato para adoção">
           <h3>Luna</h3>
-          <p>Fêmea • 1 ano • Castrada</p>
+          <p>Fêmea • 1 ano • Castrada <br>Benedito Novo</p>
           <a href="#" class="btn">Quero adotar</a>
         </div>
         <div class="animal">
           <img src="/img/imgT3.jfif" alt="Cachorro para adoção">
           <h3>Bob</h3>
-          <p>Macho • 3 anos • Carinhoso</p>
+          <p>Macho • 3 anos • Carinhoso<br> Blumenau</p>
           <a href="#" class="btn">Quero adotar</a>
         </div>
+      </div>
+    </section>
+
+    <!-- Nova seção de comentários -->
+    <section class="comments">
+      <h2>Histórias de Adoção</h2>
+      <div class="comment">
+        <p><strong>Ana Paula (Blumenau):</strong> “Adotei a Mel há 6 meses e ela trouxe muita alegria para nossa casa. Não consigo mais imaginar minha vida sem ela!”</p>
+      </div>
+      <div class="comment">
+        <p><strong>João e Carla (Timbó):</strong> “O Rex chegou tímido, mas hoje é o guardião da família. Obrigado Patas do Bem por nos conectar com esse amigo incrível.”</p>
+      </div>
+      <div class="comment">
+        <p><strong>Mariana (Indaial):</strong> “Sempre quis um gato e encontrei a Luna. Ela é super carinhosa e se adaptou rapidamente. Experiência maravilhosa!”</p>
       </div>
     </section>
   </main>
