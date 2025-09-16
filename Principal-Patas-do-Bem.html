@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Patas do Bem — Adoção & Doações</title>
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#b1ed9a; /* fundo verde claro */
+      color:#222;
+      line-height:1.5;
+      padding:20px;
+    }
+    header{
+      text-align:center;
+      margin-bottom:20px;
+    }
+    header h1{margin:0;font-size:24px;color:#000000}
+    nav a{
+      margin:0 10px;
+      text-decoration:none;
+      color:#333;
+      font-weight:bold;
+    }
+    main{max-width:700px;margin:0 auto}
+    section{
+      background:white;
+      padding:15px;
+      border-radius:10px;
+      margin-bottom:16px;
+      box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    }
+    .actions{margin-top:12px}
+    .btn{
+      display:inline-block;
+      padding:10px 14px;
+      margin:5px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+    .btn-primary{background:#b1ed9a;color:#000000}
+    .btn-secondary{border:2px solid #b1ed9a;color:#000000}
+    footer{
+      text-align:center;
+      margin-top:20px;
+      font-size:14px;
+      color:#555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Patas do Bem</h1>
+    <nav>
+      <a href="#como">Como funciona</a>
+      <a href="#adote">Adote</a>
+      <a href="#doe">Doe</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Adote ou doe — transforme uma vida hoje</h2>
+      <p>O <strong>Patas do Bem</strong> conecta animais resgatados a novos lares e facilita doações para ONGs e protetores.</p>
+      <div class="actions">
+        <a href="Adocao.html" class="btn btn-primary">Ver animais para adoção</a>
+        <a href="Doações-Patas-do-Bem.html" class="btn btn-secondary">Fazer uma doação</a>
+      </div>
+    </section>
+
+    <section id="como">
+      <h2>Como funciona</h2>
+      <ol>
+        <li><strong>Resgate:</strong> ONGs e voluntários cuidam e avaliam os animais.</li>
+        <li><strong>Adoção:</strong> Triagem responsável e acompanhamento.</li>
+        <li><strong>Doações:</strong> Ajude com ração, remédios e castração.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Patas do Bem • Adoção responsável
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
