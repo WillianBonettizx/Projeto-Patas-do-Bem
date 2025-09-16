@@ -20,15 +20,15 @@ botaoLogin.addEventListener("click", function(event) {
 
 
     if (usuario === "willian bonetti" && senha === "Youarezx04") {
-        window.location.href = "principal.html";
+        window.location.href = "Principal-Patas-do-Bem.html";
     }else if (usuario === "admin" && senha === "1234") {
-        window.location.href = "principal.html";
+        window.location.href = "Principal-Patas-do-Bem.html";
     } 
     else if (usuario === "Arthur Pasquali" && senha === "arthur1234") {
-        window.location.href = "principal.html";
+        window.location.href = "Principal-Patas-do-Bem.html";
     }
     else if (usuario === "Miguel" && senha === "Miguel") {
-        window.location.href = "principal.html";
+        window.location.href = "Principal-Patas-do-Bem.html";
     } 
 
     else {
