@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS-Doações.css">
-    <title>Doações Patas-Do-Bem</title>
+    <link rel="stylesheet" href="/CSS/CSS-Doações.css">
+    <title>Doações - Patas do Bem</title>
 </head>
 <body>
     <div class="conteiner">
@@ -22,7 +22,7 @@
         <!--Adicionando o usuario-->
         <div class="Verificar-dados"> 
             <div id="Usuario">
-                <label for="Usuario">Usuario </label> 
+                <label for="Usuario">Usuário </label> 
                 <input type="text">
             </div>
 
@@ -37,17 +37,19 @@
         <p id="paragrafo-valores">Valores</p>
 
         <!--Adicionando as opções de valores na página-->
-            <div id="udt">
-                <button> R$ 1,00 </button>
-                <button> R$ 5,00 </button>
-                <button> R$ 10,00 </button>
-            </div>
-            <div id="qcs">
-                <button> R$ 20,00 </button>
-                <button> R$ 50,00 </button>
-                <button> R$ 100,00 </button> 
-            </div>
-            <button id="Personalizado"> Personalizado</button>
+        <div id="udt">
+            <a href="R$1.html"><button type="button">R$ 1,00</button></a>
+            <a href="R$5.html"><button type="button">R$ 5,00</button></a>
+            <a href="R$10.html"><button type="button">R$ 10,00</button></a>
+        </div>
+
+        <div id="qcs">
+            <a href="R$20.html"><button type="button">R$ 20,00</button></a>
+            <a href="R$50.html"><button type="button">R$ 50,00</button></a>
+            <a href="R$100.html"><button type="button">R$ 100,00</button></a>
+        </div>
+
+        <a href="Personalizado.html"><button type="button" id="Personalizado">Personalizado</button></a>
         </form>
     </div>
 </body>
