@@ -28,17 +28,6 @@ body {
     height: 100vh;
    }
 
-.Verificar-dados input {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 5px;
-    margin: -15px 0;
-   }
-
-.Verificar-dados label {
-    display: block;
-    margin-top: 10px;
-}
 #Personalizado {
     box-sizing: border-box;
     padding: 2px;
